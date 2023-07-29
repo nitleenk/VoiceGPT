@@ -7,8 +7,8 @@ This Python script sets up a Telegram chatbot that utilizes OpenAI's GPT-3.5 Tur
 **2. API Key Setup**
 Before running the script, you need to obtain two API keys:
 
-- **Telegram API Token**: To get this token, create a new Telegram bot using the BotFather and replace `<YOUR API KEY>` with the token provided.
-- **OpenAI GPT-3.5 Turbo API Key**: Sign up for the OpenAI API and acquire an API key. Replace `<YOUR OPENAI API KEY>` with your actual key.
+- **Telegram API Token**: To get this token, create a new Telegram bot using the BotFather and replace `<YOUR TELEGRAM API>` with the token provided.
+- **OpenAI GPT-3.5 Turbo API Key**: Sign up for the OpenAI API and acquire an API key. Replace `<YOUR API KEY>` with your actual key.
 
 **3. Chatbot Functionality**
 The chatbot operates with the following capabilities:
@@ -31,8 +31,5 @@ The chatbot operates with the following capabilities:
 The script utilizes the `python-telegram-bot` library to integrate the chatbot with the Telegram platform. It sets up an Updater, Dispatcher, and adds MessageHandlers for text and voice messages.
 
 **5. Dependencies**
-The script requires the installation of `python-telegram-bot`, `openai`, and `moviepy` libraries. You can install them using `pip`:
-```bash
-pip install python-telegram-bot openai moviepy
-```
+The script requires the installation of `python-telegram-bot`, `openai`, and `moviepy` libraries.
 
